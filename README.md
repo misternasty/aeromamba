@@ -1,6 +1,6 @@
 # AEROMamba
 
-# About 
+## About 
 
 Official PyTorch implementation of 
 
@@ -8,7 +8,7 @@ Official PyTorch implementation of
 
 whose demo is available in our [Webpage](https://aeromamba-super-resolution.github.io/).  Our model is closely related to [AERO](https://github.com/slp-rl/aero) and [Mamba](https://github.com/state-spaces/mamba), so make sure to check them out if any questions arise regarding these modules.
 
-# Installation
+## Installation
 
 Requirements:
 - Python 3.10.0
@@ -96,7 +96,7 @@ We also provide predict_with_ola.py to predict large files that do not fit in th
 `
 python predict_with_ola.py dset=<dset-name> experiment=<experiment-name> +folder_path=<absolute path to input folder> +output=<absolute path to output directory>
 `
-## Checkpoints
+### Checkpoints
 
 To use pre-trained models for MUSDB18-HQ or PianoEval data, one can download checkpoints from [here](https://poliufrjbr-my.sharepoint.com/:f:/g/personal/abreu_engcb_poli_ufrj_br/EhqOtFGTmeZNr-WNv976Jw8BLfpgBYisodrRb2uTGvrFsg?e=5j1nx4).
 
