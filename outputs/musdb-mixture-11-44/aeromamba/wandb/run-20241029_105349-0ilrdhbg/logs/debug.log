@@ -1,0 +1,26 @@
+2024-10-29 10:53:49,338 INFO    MainThread:296384 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-29 10:53:49,338 INFO    MainThread:296384 [wandb_setup.py:_flush():79] Configure stats pid to 296384
+2024-10-29 10:53:49,338 INFO    MainThread:296384 [wandb_setup.py:_flush():79] Loading settings from /home/wallace.abreu/.config/wandb/settings
+2024-10-29 10:53:49,338 INFO    MainThread:296384 [wandb_setup.py:_flush():79] Loading settings from /nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/outputs/musdb-mixture-11-44/aeromamba/wandb/settings
+2024-10-29 10:53:49,339 INFO    MainThread:296384 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-29 10:53:49,339 INFO    MainThread:296384 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': 'online', '_disable_service': None}
+2024-10-29 10:53:49,339 WARNING MainThread:296384 [wandb_setup.py:_flush():79] Could not save program above cwd: /nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/test.py
+2024-10-29 10:53:49,340 INFO    MainThread:296384 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': None, 'program_abspath': '/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/test.py', 'program': '/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/test.py'}
+2024-10-29 10:53:49,340 INFO    MainThread:296384 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-29 10:53:49,341 INFO    MainThread:296384 [wandb_init.py:_log_setup():534] Logging user logs to /nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/outputs/musdb-mixture-11-44/aeromamba/wandb/run-20241029_105349-0ilrdhbg/logs/debug.log
+2024-10-29 10:53:49,341 INFO    MainThread:296384 [wandb_init.py:_log_setup():535] Logging internal logs to /nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/outputs/musdb-mixture-11-44/aeromamba/wandb/run-20241029_105349-0ilrdhbg/logs/debug-internal.log
+2024-10-29 10:53:49,343 INFO    MainThread:296384 [wandb_init.py:init():621] calling init triggers
+2024-10-29 10:53:49,343 INFO    MainThread:296384 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'eval_every': 3, 'optim': 'adam', 'lr': 0.0003, 'losses': ['stft'], 'epochs': 696, 'name': 'aeromamba', 'lr_sr': 11025, 'hr_sr': 44100, 'segment': 4, 'stride': 4, 'pad': True, 'upsample': False, 'batch_size': 4, 'nfft': 512, 'hop_length': 256, 'fixed_n_examples': None, 'power_threshold': 0.001, 'model': 'aero', 'aero': {'in_channels': 1, 'out_channels': 1, 'channels': 48, 'growth': 2, 'nfft': '${experiment.nfft}', 'hop_length': '${experiment.hop_length}', 'end_iters': 0, 'cac': True, 'rewrite': True, 'hybrid': False, 'hybrid_old': False, 'freq_emb': 0.2, 'emb_scale': 10, 'emb_smooth': True, 'kernel_size': 8, 'strides': [4, 4, 2, 2], 'context': 1, 'context_enc': 0, 'freq_ends': 4, 'enc_freq_attn': 0, 'norm_starts': 2, 'norm_groups': 4, 'dconv_mode': 1, 'dconv_depth': 2, 'dconv_comp': 4, 'dconv_time_attn': 4, 'dconv_lstm': 4, 'dconv_mamba': 0, 'dconv_init': 0.001, 'rescale': 0.1, 'lr_sr': '${experiment.lr_sr}', 'hr_sr': '${experiment.hr_sr}', 'spec_upsample': True, 'act_func': 'snake', 'debug': False}, 'adversarial': True, 'features_loss_lambda': 100, 'only_features_loss': False, 'only_adversarial_loss': False, 'discriminator_models': ['msd_melgan'], 'melgan_discriminator': {'n_layers': 4, 'num_D': 3, 'downsampling_factor': 4, 'ndf': 16}, 'train': '/home/wallace.abreu/Mestrado/aero_vanilla/egs/musdb-mixture-11-44/tr', 'test': '/home/wallace.abreu/Mestrado/aero_vanilla/egs/musdb-mixture-11-44/tt'}
+2024-10-29 10:53:49,344 INFO    MainThread:296384 [wandb_init.py:init():671] starting backend
+2024-10-29 10:53:49,344 INFO    MainThread:296384 [wandb_init.py:init():675] sending inform_init request
+2024-10-29 10:53:49,349 INFO    MainThread:296384 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-29 10:53:49,350 INFO    MainThread:296384 [wandb_init.py:init():688] backend started and connected
+2024-10-29 10:53:49,356 INFO    MainThread:296384 [wandb_init.py:init():783] updated telemetry
+2024-10-29 10:53:49,357 INFO    MainThread:296384 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-29 10:53:50,250 INFO    MainThread:296384 [wandb_init.py:init():867] starting run threads in backend
+2024-10-29 10:53:51,869 INFO    MainThread:296384 [wandb_run.py:_console_start():2463] atexit reg
+2024-10-29 10:53:51,869 INFO    MainThread:296384 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2024-10-29 10:53:51,869 INFO    MainThread:296384 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2024-10-29 10:53:51,872 INFO    MainThread:296384 [wandb_run.py:_redirect():2401] Redirects installed.
+2024-10-29 10:53:51,928 INFO    MainThread:296384 [wandb_init.py:init():911] run started, returning control to user process

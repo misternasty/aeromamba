@@ -88,7 +88,7 @@ python predict.py dset=<dset-name> experiment=<experiment-name> +filename=<absol
 ### Multiple samples
 
 `
-bash predict.sh <input_folder> <output_folder>
+bash predict_batch.sh <input_folder> <output_folder>
 `
 
 We also provide predict_with_ola.py to predict large files that do not fit in the GPU, without the need for segmentation, using Overlap-and-Add. The original predict.py is also capable of joining predicted segments, but its naïve method causes clicks. 

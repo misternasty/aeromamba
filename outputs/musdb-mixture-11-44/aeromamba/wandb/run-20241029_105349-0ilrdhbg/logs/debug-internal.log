@@ -1,0 +1,8 @@
+{"time":"2024-10-29T10:53:49.374481967-03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-29T10:53:49.374506239-03:00","level":"INFO","msg":"created symlink","path":"/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/outputs/musdb-mixture-11-44/aeromamba/wandb/run-20241029_105349-0ilrdhbg/logs/debug-core.log"}
+{"time":"2024-10-29T10:53:49.595564208-03:00","level":"INFO","msg":"created new stream","id":"0ilrdhbg"}
+{"time":"2024-10-29T10:53:49.595638337-03:00","level":"INFO","msg":"stream: started","id":"0ilrdhbg"}
+{"time":"2024-10-29T10:53:49.59583599-03:00","level":"INFO","msg":"sender: started","stream_id":"0ilrdhbg"}
+{"time":"2024-10-29T10:53:49.595748251-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"0ilrdhbg"}}
+{"time":"2024-10-29T10:53:49.59583588-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"0ilrdhbg"}}
+{"time":"2024-10-29T10:53:50.274006895-03:00","level":"INFO","msg":"Starting system monitor"}

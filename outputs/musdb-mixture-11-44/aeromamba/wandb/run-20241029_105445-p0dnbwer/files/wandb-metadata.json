@@ -1,0 +1,40 @@
+{
+  "os":  "Linux-6.0.12-100.fc35.x86_64-x86_64-with-glibc2.34",
+  "python":  "3.10.0",
+  "startedAt":  "2024-10-29T13:54:46.001594Z",
+  "args":  [
+    "checkpoint_file=/home/wallace.abreu/Mestrado/aeromamba-lamir/outputs/chopin-11-44-one/aeromamba/checkpoint.th"
+  ],
+  "program":  "/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/test.py",
+  "email":  "abreu.engcb@poli.ufrj.br",
+  "root":  "/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/outputs/musdb-mixture-11-44/aeromamba",
+  "host":  "zermatt.smt.ufrj.br",
+  "username":  "wallace.abreu",
+  "executable":  "/home/wallace.abreu/miniconda3/envs/lamir_test/bin/python",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "gpu":  "NVIDIA GeForce RTX 2080 Ti",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "78675447808",
+      "used":  "59385651200"
+    }
+  },
+  "memory":  {
+    "total":  "33512456192"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 2080 Ti",
+      "memoryTotal":  "11811160064",
+      "cudaCores":  4352,
+      "architecture":  "Turing"
+    }
+  ],
+  "cudaVersion":  "11.8"
+}

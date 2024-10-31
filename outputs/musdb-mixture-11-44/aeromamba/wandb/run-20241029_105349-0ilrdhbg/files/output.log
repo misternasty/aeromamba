@@ -1,0 +1,17 @@
+[[36m2024-10-29 10:53:52,672[0m][[34m__main__[0m][[31mERROR[0m] - Some error happened
+Traceback (most recent call last):
+  File "/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/test.py", line 79, in main
+    _main(args)
+  File "/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/test.py", line 72, in _main
+    run(args)
+  File "/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/test.py", line 47, in run
+    model = _load_model(args)
+  File "/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/test.py", line 30, in _load_model
+    package = torch.load(checkpoint_file, 'cpu')
+  File "/home/wallace.abreu/miniconda3/envs/lamir_test/lib/python3.10/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/wallace.abreu/miniconda3/envs/lamir_test/lib/python3.10/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/wallace.abreu/miniconda3/envs/lamir_test/lib/python3.10/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'checkpoint.th'[0m

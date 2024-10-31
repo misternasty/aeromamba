@@ -1,0 +1,87 @@
+_wandb:
+    value:
+        cli_version: 0.18.5
+        m: []
+        python_version: 3.10.0
+        t:
+            "1":
+                - 1
+                - 11
+                - 49
+                - 50
+                - 55
+            "2":
+                - 1
+                - 11
+                - 49
+                - 50
+                - 55
+            "3":
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.10.0
+            "5": 0.18.5
+            "6": 4.46.0
+            "8":
+                - 2
+                - 5
+            "12": 0.18.5
+            "13": linux-x86_64
+adversarial:
+    value: true
+aero:
+    value: '{''in_channels'': 1, ''out_channels'': 1, ''channels'': 48, ''growth'': 2, ''nfft'': ''${experiment.nfft}'', ''hop_length'': ''${experiment.hop_length}'', ''end_iters'': 0, ''cac'': True, ''rewrite'': True, ''hybrid'': False, ''hybrid_old'': False, ''freq_emb'': 0.2, ''emb_scale'': 10, ''emb_smooth'': True, ''kernel_size'': 8, ''strides'': [4, 4, 2, 2], ''context'': 1, ''context_enc'': 0, ''freq_ends'': 4, ''enc_freq_attn'': 0, ''norm_starts'': 2, ''norm_groups'': 4, ''dconv_mode'': 1, ''dconv_depth'': 2, ''dconv_comp'': 4, ''dconv_time_attn'': 4, ''dconv_lstm'': 4, ''dconv_mamba'': 0, ''dconv_init'': 0.001, ''rescale'': 0.1, ''lr_sr'': ''${experiment.lr_sr}'', ''hr_sr'': ''${experiment.hr_sr}'', ''spec_upsample'': True, ''act_func'': ''snake'', ''debug'': False}'
+batch_size:
+    value: 4
+discriminator_models:
+    value:
+        - msd_melgan
+epochs:
+    value: 696
+eval_every:
+    value: 3
+features_loss_lambda:
+    value: 100
+fixed_n_examples:
+    value: null
+hop_length:
+    value: 256
+hr_sr:
+    value: 44100
+losses:
+    value:
+        - stft
+lr:
+    value: 0.0003
+lr_sr:
+    value: 11025
+melgan_discriminator:
+    value: '{''n_layers'': 4, ''num_D'': 3, ''downsampling_factor'': 4, ''ndf'': 16}'
+model:
+    value: aero
+name:
+    value: aeromamba
+nfft:
+    value: 512
+only_adversarial_loss:
+    value: false
+only_features_loss:
+    value: false
+optim:
+    value: adam
+pad:
+    value: true
+power_threshold:
+    value: 0.001
+segment:
+    value: 4
+stride:
+    value: 4
+test:
+    value: /home/wallace.abreu/Mestrado/aero_vanilla/egs/musdb-mixture-11-44/tt
+train:
+    value: /home/wallace.abreu/Mestrado/aero_vanilla/egs/musdb-mixture-11-44/tr
+upsample:
+    value: false

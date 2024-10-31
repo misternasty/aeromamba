@@ -1,0 +1,41 @@
+[[36m2024-10-29 10:54:55,262[0m][[34m__main__[0m][[32mINFO[0m] - [1mLoading model aero from last state.[0m
+Traceback (most recent call last):
+  File "/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/test.py", line 87, in <module>
+    main()
+  File "/home/wallace.abreu/miniconda3/envs/lamir_test/lib/python3.10/site-packages/hydra/main.py", line 48, in decorated_main
+    _run_hydra(
+  File "/home/wallace.abreu/miniconda3/envs/lamir_test/lib/python3.10/site-packages/hydra/_internal/utils.py", line 377, in _run_hydra
+    run_and_report(
+  File "/home/wallace.abreu/miniconda3/envs/lamir_test/lib/python3.10/site-packages/hydra/_internal/utils.py", line 211, in run_and_report
+    return func()
+  File "/home/wallace.abreu/miniconda3/envs/lamir_test/lib/python3.10/site-packages/hydra/_internal/utils.py", line 378, in <lambda>
+    lambda: hydra.run(
+  File "/home/wallace.abreu/miniconda3/envs/lamir_test/lib/python3.10/site-packages/hydra/_internal/hydra.py", line 98, in run
+    ret = run_job(
+  File "/home/wallace.abreu/miniconda3/envs/lamir_test/lib/python3.10/site-packages/hydra/core/utils.py", line 160, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/test.py", line 79, in main
+    _main(args)
+  File "/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/test.py", line 72, in _main
+    run(args)
+  File "/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/test.py", line 50, in run
+    lsd, visqol, enhanced_filenames = evaluate(args, tt_loader, 0, model)
+  File "/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/src/evaluate.py", line 161, in evaluate
+    metrics_i = evaluate_lr_hr_data(data, model, wandb_n_files_to_log, files_to_log, epoch, args)
+  File "/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/src/evaluate.py", line 65, in evaluate_lr_hr_data
+    pr, pr_spec, lr_spec = model(lr, return_spec=True, return_lr_spec=True)
+  File "/home/wallace.abreu/miniconda3/envs/lamir_test/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/src/models/aero.py", line 486, in forward
+    x = encode(x, inject)
+  File "/home/wallace.abreu/miniconda3/envs/lamir_test/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/src/models/aero.py", line 120, in forward
+    x = self.pre_conv(x)
+  File "/home/wallace.abreu/miniconda3/envs/lamir_test/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/wallace.abreu/miniconda3/envs/lamir_test/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 457, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/wallace.abreu/miniconda3/envs/lamir_test/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 453, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+KeyboardInterrupt

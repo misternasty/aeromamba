@@ -1,0 +1,3 @@
+[[36m2024-10-29 10:54:45,319[0m][[34m__main__[0m][[32mINFO[0m] - For logs, checkpoints and samples check /nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/outputs/musdb-mixture-11-44/aeromamba[0m
+[[36m2024-10-29 10:54:45,320[0m][[34msrc.wandb_logger[0m][[32mINFO[0m] - current path: /nfs/home/wallace.abreu/Mestrado/aeromamba-lamir/outputs/musdb-mixture-11-44/aeromamba, rank: None[0m
+[[36m2024-10-29 10:54:55,262[0m][[34m__main__[0m][[32mINFO[0m] - [1mLoading model aero from last state.[0m

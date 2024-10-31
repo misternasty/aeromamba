@@ -1,0 +1,5 @@
+# @package dset
+name: chopin-11-44
+train: egs/chopin-11-44/tr
+valid: 
+test: egs/chopin-11-44/tt
