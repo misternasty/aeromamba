@@ -27,7 +27,7 @@ If there is any error in the previous step, make sure to install manually the re
 
 ### ViSQOL
 
-We did not use ViSQOL for training and validation, but if you want to, see [[https://github.com/slp-rl/aero|AERO]] for instructions. 
+We did not use ViSQOL for training and validation, but if you want to, see [AERO](https://github.com/slp-rl/aero) for instructions. 
 
 ## Datasets
 
