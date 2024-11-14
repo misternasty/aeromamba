@@ -25,6 +25,8 @@ If there is any error in the previous step, make sure to install manually the re
 - `CAUSAL_CONV1D_FORCE_BUILD=TRUE CAUSAL_CONV1D_SKIP_CUDA_BUILD=TRUE CAUSAL_CONV1D_FORCE_CXX11_ABI=TRUE pip install mamba-ssm==1.1.3.post1`
 - `conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch`
 
+Also, make sure to unzip the contents of [Mamba](https://github.com/state-spaces/mamba/archive/refs/tags/v1.1.3.post1.zip) (the mamba folder) inside aeromamba/src/models/ .
+
 ### ViSQOL
 
 We did not use ViSQOL for training and validation, but if you want to, see [AERO](https://github.com/slp-rl/aero) for instructions. 
