@@ -58,6 +58,7 @@ For each low and high resolution pair, one should create "egs files" twice: for 
 Each "egs file" contains meta information about the signals: paths and signal lengths.
 
 `python data_prep/create_meta_files.py <path for 11.025 kHz data> egs/musdb/ lr` 
+
 `python data_prep/create_meta_files.py <path for 44.1 kHz data> egs/musdb/ hr`
 
 ## Train
