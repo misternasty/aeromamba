@@ -49,7 +49,7 @@ to include all source/target pairs.
 We downsample once to a target 11.025 kHz, from the original 44.1 kHz.
 
 e.g. for 11.025 and 44.1 kHz: \
-`python data_prep/resample_data.py --data_dir <path for 44.1 kHz data> --out_dir <path for 11.025 kHz data> --target_sr 11025 \
+`python data_prep/resample_data.py --data_dir <path for 44.1 kHz data> --out_dir <path for 11.025 kHz data> --target_sr 11025`
 
 ### Create egs files
 
